@@ -1,0 +1,32 @@
+<testsuites id="" name="" tests="9" failures="0" skipped="0" errors="0" time="18.916331000000003">
+<testsuite name="example.spec.ts" timestamp="2026-07-01T10:28:28.721Z" hostname="chromium" tests="2" failures="0" skipped="0" time="12.653" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="7.271">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="5.382">
+</testcase>
+</testsuite>
+<testsuite name="first.spec.ts" timestamp="2026-07-01T10:28:28.721Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.275" errors="0">
+<testcase name="Nawigacja i weryfikacja podstawowych elementow › Weryfikacja tytulu i przejscia do dokumentacji" classname="first.spec.ts" time="7.275">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2026-07-01T10:28:28.721Z" hostname="firefox" tests="2" failures="0" skipped="0" time="13.417" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="8.098">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="5.319">
+</testcase>
+</testsuite>
+<testsuite name="first.spec.ts" timestamp="2026-07-01T10:28:28.721Z" hostname="firefox" tests="1" failures="0" skipped="0" time="5.64" errors="0">
+<testcase name="Nawigacja i weryfikacja podstawowych elementow › Weryfikacja tytulu i przejscia do dokumentacji" classname="first.spec.ts" time="5.64">
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2026-07-01T10:28:28.721Z" hostname="webkit" tests="2" failures="0" skipped="0" time="7.064" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="3.33">
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="3.734">
+</testcase>
+</testsuite>
+<testsuite name="first.spec.ts" timestamp="2026-07-01T10:28:28.721Z" hostname="webkit" tests="1" failures="0" skipped="0" time="2.236" errors="0">
+<testcase name="Nawigacja i weryfikacja podstawowych elementow › Weryfikacja tytulu i przejscia do dokumentacji" classname="first.spec.ts" time="2.236">
+</testcase>
+</testsuite>
+</testsuites>

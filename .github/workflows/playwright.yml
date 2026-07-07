@@ -8,6 +8,9 @@ jobs:
   test:
     env:
       NODE_OPTIONS: --no-deprecation
+      SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
+      SAUCE_PASSWORD: ${{ secrets.SAUCE_PASSWORD }}
+      SAUCE_LOCKED_USER: ${{ secrets.SAUCE_LOCKED_USER }}
       BASE_URL: https://www.saucedemo.com
     timeout-minutes: 60
     runs-on: ubuntu-latest

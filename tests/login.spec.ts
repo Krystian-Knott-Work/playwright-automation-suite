@@ -19,7 +19,7 @@ test('Verify successful login with valid credentials', async ({page}) => {
 
   await expect(page).toHaveURL(/.*saucedemo\.com\/?/);
 
-  await loginPage.login('standard_user', 'secret_sauce');
+  await loginPage.login(process.env.SAUCE_USERNAME!, process.env.SAUCE_PASSWORD!);
 
   await expect(page.getByText('Products')).toBeVisible();
   await expect(page).toHaveURL(/.*inventory\.html/);
@@ -29,7 +29,7 @@ test('Verify successful logout redirects to login screen', async ({page}) => {
 
   await expect(page).toHaveURL(/.*saucedemo\.com\/?/);
 
-  await loginPage.login('standard_user', 'secret_sauce');
+  await loginPage.login(process.env.SAUCE_USERNAME!, process.env.SAUCE_PASSWORD!);
   await expect(page).toHaveURL(/.*inventory\.html/);
   await expect(page.getByText('Products')).toBeVisible();
 
@@ -40,7 +40,7 @@ test('Verify successful logout redirects to login screen', async ({page}) => {
 });
 
 test('Verify locked out user receives appropriate error message', async ({page}) => {
-  await loginPage.login('locked_out_user', 'secret_sauce');
+  await loginPage.login(process.env.SAUCE_LOCKED_USER!, process.env.SAUCE_PASSWORD!);
   await expect(loginPage.errorMessage).toHaveText('Epic sadface: Sorry, this user has been locked out.');
   await loginPage.errorMessageButton.click();
   await expect(loginPage.errorMessageButton).toBeHidden();

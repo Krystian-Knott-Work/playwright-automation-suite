@@ -17,7 +17,7 @@ test.beforeEach(async ({page}) => {
   productPage = new ProductPage(page);
 
   await page.goto('/');
-  await loginPage.login('standard_user', 'secret_sauce');
+  await loginPage.login(process.env.SAUCE_USERNAME!, process.env.SAUCE_PASSWORD!);
 })
 
 test.describe('Sorting functionality', () => {

@@ -11,7 +11,7 @@ test.beforeEach(async ({page}) => {
     await page.goto('/');
 })
 
-test('Login test', async ({page}) => {
+test('Verify successful login with valid credentials', async ({page}) => {
   await expect(loginPage.loginPageTitle).toBeVisible();
   await expect(loginPage.loginButton).toBeEnabled();
   await expect(loginPage.usernameInput).toHaveAttribute('placeholder', 'Username');
@@ -25,7 +25,7 @@ test('Login test', async ({page}) => {
   await expect(page).toHaveURL(/.*inventory\.html/);
 });
 
-test('Logout test', async ({page}) => {
+test('Verify successful logout redirects to login screen', async ({page}) => {
 
   await expect(page).toHaveURL(/.*saucedemo\.com\/?/);
 
@@ -39,7 +39,7 @@ test('Logout test', async ({page}) => {
   await expect(loginPage.loginButton).toBeEnabled();
 });
 
-test('Verify that locked out user cannot log in', async ({page}) => {
+test('Verify locked out user receives appropriate error message', async ({page}) => {
   await loginPage.login('locked_out_user', 'secret_sauce');
   await expect(loginPage.errorMessage).toHaveText('Epic sadface: Sorry, this user has been locked out.');
   await loginPage.errorMessageButton.click();

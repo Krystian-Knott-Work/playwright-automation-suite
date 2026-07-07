@@ -1,74 +1,74 @@
-<testsuites id="" name="" tests="27" failures="0" skipped="0" errors="0" time="33.659699">
-<testsuite name="e2e.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.692" errors="0">
-<testcase name="Full Purchase Flow › Should complete the full purchase process" classname="e2e.spec.ts" time="3.692">
+<testsuites id="" name="" tests="27" failures="0" skipped="0" errors="0" time="33.424302000000004">
+<testsuite name="e2e.spec.ts" timestamp="2026-07-07T14:14:09.548Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.337" errors="0">
+<testcase name="Full Purchase Flow › Should complete the full purchase process" classname="e2e.spec.ts" time="4.337">
 </testcase>
 </testsuite>
-<testsuite name="login.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="chromium" tests="3" failures="0" skipped="0" time="9.767" errors="0">
-<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="2.81">
+<testsuite name="login.spec.ts" timestamp="2026-07-07T14:14:09.548Z" hostname="chromium" tests="3" failures="0" skipped="0" time="11.141" errors="0">
+<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="3.32">
 </testcase>
-<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="4.181">
+<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="4.504">
 </testcase>
-<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="2.776">
-</testcase>
-</testsuite>
-<testsuite name="products.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="chromium" tests="5" failures="0" skipped="0" time="7.816" errors="0">
-<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="1.722">
-</testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="1.77">
-</testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="1.753">
-</testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="1.333">
-</testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="1.238">
+<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="3.317">
 </testcase>
 </testsuite>
-<testsuite name="e2e.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="firefox" tests="1" failures="0" skipped="0" time="10.355" errors="0">
-<testcase name="Full Purchase Flow › Should complete the full purchase process" classname="e2e.spec.ts" time="10.355">
+<testsuite name="products.spec.ts" timestamp="2026-07-07T14:14:09.548Z" hostname="chromium" tests="5" failures="0" skipped="0" time="8.566" errors="0">
+<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="1.856">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="1.791">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="1.814">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="1.667">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="1.438">
 </testcase>
 </testsuite>
-<testsuite name="login.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="firefox" tests="3" failures="0" skipped="0" time="21.397" errors="0">
-<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="6.685">
-</testcase>
-<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="8.049">
-</testcase>
-<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="6.663">
+<testsuite name="e2e.spec.ts" timestamp="2026-07-07T14:14:09.548Z" hostname="firefox" tests="1" failures="0" skipped="0" time="7.886" errors="0">
+<testcase name="Full Purchase Flow › Should complete the full purchase process" classname="e2e.spec.ts" time="7.886">
 </testcase>
 </testsuite>
-<testsuite name="products.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="firefox" tests="5" failures="0" skipped="0" time="18.459" errors="0">
-<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="4.277">
+<testsuite name="login.spec.ts" timestamp="2026-07-07T14:14:09.548Z" hostname="firefox" tests="3" failures="0" skipped="0" time="21.151" errors="0">
+<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="6.436">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="5.042">
+<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="6.265">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="4.504">
-</testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="2.255">
-</testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="2.381">
+<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="8.45">
 </testcase>
 </testsuite>
-<testsuite name="e2e.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="webkit" tests="1" failures="0" skipped="0" time="4.948" errors="0">
-<testcase name="Full Purchase Flow › Should complete the full purchase process" classname="e2e.spec.ts" time="4.948">
+<testsuite name="products.spec.ts" timestamp="2026-07-07T14:14:09.548Z" hostname="firefox" tests="5" failures="0" skipped="0" time="20.674" errors="0">
+<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="5.085">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="4.836">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="4.741">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="3.53">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="2.482">
 </testcase>
 </testsuite>
-<testsuite name="login.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="webkit" tests="3" failures="0" skipped="0" time="11.873" errors="0">
-<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="3.91">
-</testcase>
-<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="4.757">
-</testcase>
-<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="3.206">
+<testsuite name="e2e.spec.ts" timestamp="2026-07-07T14:14:09.548Z" hostname="webkit" tests="1" failures="0" skipped="0" time="4.45" errors="0">
+<testcase name="Full Purchase Flow › Should complete the full purchase process" classname="e2e.spec.ts" time="4.45">
 </testcase>
 </testsuite>
-<testsuite name="products.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="webkit" tests="5" failures="0" skipped="0" time="10.318" errors="0">
-<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="2.624">
+<testsuite name="login.spec.ts" timestamp="2026-07-07T14:14:09.548Z" hostname="webkit" tests="3" failures="0" skipped="0" time="11.562" errors="0">
+<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="3.958">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="2.338">
+<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="4.782">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="2.167">
+<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="2.822">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="2.069">
+</testsuite>
+<testsuite name="products.spec.ts" timestamp="2026-07-07T14:14:09.548Z" hostname="webkit" tests="5" failures="0" skipped="0" time="8.218" errors="0">
+<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="1.996">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="1.12">
+<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="1.713">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="1.712">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="1.705">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="1.092">
 </testcase>
 </testsuite>
 </testsuites>

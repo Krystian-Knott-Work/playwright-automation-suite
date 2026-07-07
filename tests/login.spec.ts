@@ -25,7 +25,7 @@ test('Login test', async ({page}) => {
   await expect(page).toHaveURL(/.*inventory\.html/);
 });
 
-test.only('Logout test', async ({page}) => {
+test('Logout test', async ({page}) => {
 
   await expect(page).toHaveURL(/.*saucedemo\.com\/?/);
 

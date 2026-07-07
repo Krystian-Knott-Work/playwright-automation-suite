@@ -8,7 +8,7 @@ This repository contains a robust, scalable, and fully automated web UI testing 
 The framework currently tests the [SauceDemo](https://www.saucedemo.com/) web application, covering complex scenarios including authentication flows, session management, and dynamic product sorting.
 
 ## 🏗️ Architecture & Best Practices
-This project is built with a Senior-level approach to test automation architecture:
+
 * **Page Object Model (POM):** Strict separation of test logic and page interactions. Locators and methods are encapsulated within dedicated classes (`LoginPage`, `ProductPage`).
 * **Data-Driven Testing (DDT):** Test parameterization is implemented to efficiently run scenarios across multiple data sets (e.g., verifying multiple sorting options and problem user accounts) without code duplication.
 * **Modern Locators:** Heavy utilization of user-facing locators (`getByRole`, `getByText`, `getByPlaceholder`) to ensure tests are resilient and accessible.

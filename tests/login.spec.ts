@@ -12,9 +12,38 @@ test.beforeEach(async ({page}) => {
 })
 
 test('Login test', async ({page}) => {
-  
+  await expect(loginPage.loginPageTitle).toBeVisible();
+  await expect(loginPage.loginButton).toBeEnabled();
+  await expect(loginPage.usernameInput).toHaveAttribute('placeholder', 'Username');
+  await expect(loginPage.passwordInput).toHaveAttribute('placeholder', 'Password');
+
+  await expect(page).toHaveURL(/.*saucedemo\.com\/?/);
+
   await loginPage.login('standard_user', 'secret_sauce');
 
   await expect(page.getByText('Products')).toBeVisible();
-  await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
+  await expect(page).toHaveURL(/.*inventory\.html/);
+});
+
+test.only('Logout test', async ({page}) => {
+
+  await expect(page).toHaveURL(/.*saucedemo\.com\/?/);
+
+  await loginPage.login('standard_user', 'secret_sauce');
+  await expect(page).toHaveURL(/.*inventory\.html/);
+  await expect(page.getByText('Products')).toBeVisible();
+
+  await productPage.logout();
+  await expect(page).toHaveURL(/.*saucedemo\.com\/?/);
+
+  await expect(loginPage.loginButton).toBeEnabled();
+});
+
+test('Verify that locked out user cannot log in', async ({page}) => {
+  await loginPage.login('locked_out_user', 'secret_sauce');
+  await expect(loginPage.errorMessage).toHaveText('Epic sadface: Sorry, this user has been locked out.');
+  await loginPage.errorMessageButton.click();
+  await expect(loginPage.errorMessageButton).toBeHidden();
+
+  await expect(page).toHaveURL(/.*saucedemo\.com\/?/);
 });

@@ -1,26 +1,14 @@
-<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="9.374032">
-<testsuite name="login.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.366" errors="0">
-<testcase name="Login test" classname="login.spec.ts" time="2.366">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="6.7850470000000005">
+<testsuite name="login.spec.ts" timestamp="2026-07-07T10:24:33.663Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.941" errors="0">
+<testcase name="Logout test" classname="login.spec.ts" time="2.941">
 </testcase>
 </testsuite>
-<testsuite name="products.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.385" errors="0">
-<testcase name="Verify that products are sorted correctly" classname="products.spec.ts" time="2.385">
+<testsuite name="login.spec.ts" timestamp="2026-07-07T10:24:33.663Z" hostname="firefox" tests="1" failures="0" skipped="0" time="4.514" errors="0">
+<testcase name="Logout test" classname="login.spec.ts" time="4.514">
 </testcase>
 </testsuite>
-<testsuite name="login.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="firefox" tests="1" failures="0" skipped="0" time="4.822" errors="0">
-<testcase name="Login test" classname="login.spec.ts" time="4.822">
-</testcase>
-</testsuite>
-<testsuite name="products.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="firefox" tests="1" failures="0" skipped="0" time="3.866" errors="0">
-<testcase name="Verify that products are sorted correctly" classname="products.spec.ts" time="3.866">
-</testcase>
-</testsuite>
-<testsuite name="login.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="webkit" tests="1" failures="0" skipped="0" time="2.266" errors="0">
-<testcase name="Login test" classname="login.spec.ts" time="2.266">
-</testcase>
-</testsuite>
-<testsuite name="products.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="webkit" tests="1" failures="0" skipped="0" time="2.297" errors="0">
-<testcase name="Verify that products are sorted correctly" classname="products.spec.ts" time="2.297">
+<testsuite name="login.spec.ts" timestamp="2026-07-07T10:24:33.663Z" hostname="webkit" tests="1" failures="0" skipped="0" time="3.596" errors="0">
+<testcase name="Logout test" classname="login.spec.ts" time="3.596">
 </testcase>
 </testsuite>
 </testsuites>

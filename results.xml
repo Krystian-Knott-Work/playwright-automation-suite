@@ -1,62 +1,74 @@
-<testsuites id="" name="" tests="24" failures="0" skipped="0" errors="0" time="29.012189000000003">
-<testsuite name="login.spec.ts" timestamp="2026-07-07T12:19:28.383Z" hostname="chromium" tests="3" failures="0" skipped="0" time="10.198" errors="0">
-<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="2.916">
-</testcase>
-<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="4.446">
-</testcase>
-<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="2.836">
+<testsuites id="" name="" tests="27" failures="0" skipped="0" errors="0" time="33.659699">
+<testsuite name="e2e.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.692" errors="0">
+<testcase name="Full Purchase Flow › Should complete the full purchase process" classname="e2e.spec.ts" time="3.692">
 </testcase>
 </testsuite>
-<testsuite name="products.spec.ts" timestamp="2026-07-07T12:19:28.383Z" hostname="chromium" tests="5" failures="0" skipped="0" time="8.836" errors="0">
-<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="2.855">
+<testsuite name="login.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="chromium" tests="3" failures="0" skipped="0" time="9.767" errors="0">
+<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="2.81">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="1.652">
+<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="4.181">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="1.667">
-</testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="1.556">
-</testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="1.106">
+<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="2.776">
 </testcase>
 </testsuite>
-<testsuite name="login.spec.ts" timestamp="2026-07-07T12:19:28.383Z" hostname="firefox" tests="3" failures="0" skipped="0" time="20.676" errors="0">
-<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="6.642">
+<testsuite name="products.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="chromium" tests="5" failures="0" skipped="0" time="7.816" errors="0">
+<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="1.722">
 </testcase>
-<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="7.171">
+<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="1.77">
 </testcase>
-<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="6.863">
+<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="1.753">
 </testcase>
-</testsuite>
-<testsuite name="products.spec.ts" timestamp="2026-07-07T12:19:28.383Z" hostname="firefox" tests="5" failures="0" skipped="0" time="27.576" errors="0">
-<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="8.793">
+<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="1.333">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="5.663">
-</testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="5.079">
-</testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="5.166">
-</testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="2.875">
+<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="1.238">
 </testcase>
 </testsuite>
-<testsuite name="login.spec.ts" timestamp="2026-07-07T12:19:28.383Z" hostname="webkit" tests="3" failures="0" skipped="0" time="9.808" errors="0">
-<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="3.069">
-</testcase>
-<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="3.713">
-</testcase>
-<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="3.026">
+<testsuite name="e2e.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="firefox" tests="1" failures="0" skipped="0" time="10.355" errors="0">
+<testcase name="Full Purchase Flow › Should complete the full purchase process" classname="e2e.spec.ts" time="10.355">
 </testcase>
 </testsuite>
-<testsuite name="products.spec.ts" timestamp="2026-07-07T12:19:28.383Z" hostname="webkit" tests="5" failures="0" skipped="0" time="10.246" errors="0">
-<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="2.96">
+<testsuite name="login.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="firefox" tests="3" failures="0" skipped="0" time="21.397" errors="0">
+<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="6.685">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="1.964">
+<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="8.049">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="1.967">
+<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="6.663">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="1.819">
+</testsuite>
+<testsuite name="products.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="firefox" tests="5" failures="0" skipped="0" time="18.459" errors="0">
+<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="4.277">
 </testcase>
-<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="1.536">
+<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="5.042">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="4.504">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="2.255">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="2.381">
+</testcase>
+</testsuite>
+<testsuite name="e2e.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="webkit" tests="1" failures="0" skipped="0" time="4.948" errors="0">
+<testcase name="Full Purchase Flow › Should complete the full purchase process" classname="e2e.spec.ts" time="4.948">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="webkit" tests="3" failures="0" skipped="0" time="11.873" errors="0">
+<testcase name="Verify successful login with valid credentials" classname="login.spec.ts" time="3.91">
+</testcase>
+<testcase name="Verify successful logout redirects to login screen" classname="login.spec.ts" time="4.757">
+</testcase>
+<testcase name="Verify locked out user receives appropriate error message" classname="login.spec.ts" time="3.206">
+</testcase>
+</testsuite>
+<testsuite name="products.spec.ts" timestamp="2026-07-07T13:08:29.254Z" hostname="webkit" tests="5" failures="0" skipped="0" time="10.318" errors="0">
+<testcase name="Sorting functionality › Should display exactly 6 products on the page" classname="products.spec.ts" time="2.624">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by az" classname="products.spec.ts" time="2.338">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by za" classname="products.spec.ts" time="2.167">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by lohi" classname="products.spec.ts" time="2.069">
+</testcase>
+<testcase name="Sorting functionality › Verify that products are sorted correctly by hilo" classname="products.spec.ts" time="1.12">
 </testcase>
 </testsuite>
 </testsuites>

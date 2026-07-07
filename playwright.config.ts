@@ -13,7 +13,8 @@ export default defineConfig({
   reporter: [
     ['list'],
     ['html', { open: 'never' }],
-    ['junit', { outputFile: 'results.xml' }]
+    ['junit', { outputFile: 'results.xml' }],
+    ['allure-playwright', { outputFolder: 'allure-results' }]
   ],
   
   use: {

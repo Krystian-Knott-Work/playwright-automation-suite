@@ -11,14 +11,6 @@ test.beforeEach(async ({page}) => {
     await page.goto('/');
 })
 
-test('Login test', async ({page}) => {
-  
-  await loginPage.login('standard_user', 'secret_sauce');
-
-  await expect(page.getByText('Products')).toBeVisible();
-  await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
-});
-
 test('Verify that products are sorted correctly', async ({page}) => {
 
   await loginPage.login('standard_user', 'secret_sauce');

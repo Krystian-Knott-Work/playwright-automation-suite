@@ -1,20 +1,26 @@
-<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="10.266193">
-<testsuite name="exercises.spec.ts" timestamp="2026-07-07T08:17:49.722Z" hostname="chromium" tests="2" failures="0" skipped="0" time="6.445" errors="0">
-<testcase name="Login test" classname="exercises.spec.ts" time="2.144">
-</testcase>
-<testcase name="Verify that products are sorted correctly" classname="exercises.spec.ts" time="4.301">
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="9.374032">
+<testsuite name="login.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.366" errors="0">
+<testcase name="Login test" classname="login.spec.ts" time="2.366">
 </testcase>
 </testsuite>
-<testsuite name="exercises.spec.ts" timestamp="2026-07-07T08:17:49.722Z" hostname="firefox" tests="2" failures="0" skipped="0" time="10.693" errors="0">
-<testcase name="Login test" classname="exercises.spec.ts" time="5.984">
-</testcase>
-<testcase name="Verify that products are sorted correctly" classname="exercises.spec.ts" time="4.709">
+<testsuite name="products.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.385" errors="0">
+<testcase name="Verify that products are sorted correctly" classname="products.spec.ts" time="2.385">
 </testcase>
 </testsuite>
-<testsuite name="exercises.spec.ts" timestamp="2026-07-07T08:17:49.722Z" hostname="webkit" tests="2" failures="0" skipped="0" time="5.161" errors="0">
-<testcase name="Login test" classname="exercises.spec.ts" time="2.479">
+<testsuite name="login.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="firefox" tests="1" failures="0" skipped="0" time="4.822" errors="0">
+<testcase name="Login test" classname="login.spec.ts" time="4.822">
 </testcase>
-<testcase name="Verify that products are sorted correctly" classname="exercises.spec.ts" time="2.682">
+</testsuite>
+<testsuite name="products.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="firefox" tests="1" failures="0" skipped="0" time="3.866" errors="0">
+<testcase name="Verify that products are sorted correctly" classname="products.spec.ts" time="3.866">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="webkit" tests="1" failures="0" skipped="0" time="2.266" errors="0">
+<testcase name="Login test" classname="login.spec.ts" time="2.266">
+</testcase>
+</testsuite>
+<testsuite name="products.spec.ts" timestamp="2026-07-07T08:34:36.129Z" hostname="webkit" tests="1" failures="0" skipped="0" time="2.297" errors="0">
+<testcase name="Verify that products are sorted correctly" classname="products.spec.ts" time="2.297">
 </testcase>
 </testsuite>
 </testsuites>

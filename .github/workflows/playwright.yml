@@ -8,6 +8,7 @@ jobs:
   test:
     env:
       NODE_OPTIONS: --no-deprecation
+      BASE_URL: https://www.saucedemo.com
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:

@@ -1,24 +1,28 @@
 import { test, expect } from '@playwright/test';
 import {LoginPage} from '../pages/login.page';
-test('First exercise', async ({page}) => {
-  await page.goto('https://demo.playwright.dev/todomvc/#/');
-  await page.getByPlaceholder('What needs to be done?').fill('Wypić Kawe');
-  await page.keyboard.press('Enter');
+import {ProductPage} from '../pages/products.page';
 
-  await page.getByPlaceholder('What needs to be done?').fill('Napisać test w Playwright');
-  await page.keyboard.press('Enter');
+let loginPage: LoginPage;
+let productPage: ProductPage;
 
-  await page.locator('.toggle').first().check();
-  await expect(page.locator('.todo-count')).toHaveText('1 item left');
-});
+test.beforeEach(async ({page}) => {
+  loginPage = new LoginPage(page);
+  productPage = new ProductPage(page);
+    await page.goto('/');
+})
 
 test('Login test', async ({page}) => {
+  
+  await loginPage.login('standard_user', 'secret_sauce');
 
-  const loginPage = new LoginPage(page);
+  await expect(page.getByText('Products')).toBeVisible();
+  await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
+});
 
-await page.goto('https://www.saucedemo.com/');
-await loginPage.login('standard_user', 'secret_sauce');
+test('Verify that products are sorted correctly', async ({page}) => {
 
-await expect(page.getByText('Products')).toBeVisible();
-await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
+  await loginPage.login('standard_user', 'secret_sauce');
+  
+  await productPage.sortBy('lohi');
+  await expect(productPage.sauceLabsProduct).toHaveText('Sauce Labs Onesie');
 });

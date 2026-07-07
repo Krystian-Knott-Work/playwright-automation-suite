@@ -6,6 +6,7 @@
       readonly sauceLabsProduct: Locator;
       readonly hamburgerMenu: Locator;
       readonly logoutLink: Locator;
+      readonly productNames: Locator;
 
 
   constructor(page:Page){
@@ -14,6 +15,7 @@
     this.sauceLabsProduct = page.locator('[data-test="inventory-item-name"]').first();
     this.hamburgerMenu = page.getByRole('button', { name: 'Open Menu'});
     this.logoutLink = page.getByRole('link', { name: 'Logout'});
+    this.productNames = page.locator('.inventory_item_name');
   }
 
   async sortBy(option: string) {

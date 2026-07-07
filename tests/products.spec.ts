@@ -21,8 +21,12 @@ test.beforeEach(async ({page}) => {
 })
 
 test.describe('Sorting functionality', () => {
-  for (const {option, expectedFirstProduct } of sortingOptions) {
 
+    test('Should display exactly 6 products on the page', async () => {
+      await expect(productPage.productNames).toHaveCount(6);
+    }); 
+
+  for (const {option, expectedFirstProduct } of sortingOptions) {
     test(`Verify that products are sorted correctly by ${option}`, async () => {
   
       await productPage.sortBy(option);

@@ -1,20 +1,14 @@
-<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="9.726956">
-<testsuite name="pom.spec.ts" timestamp="2026-07-01T12:49:22.269Z" hostname="chromium" tests="2" failures="0" skipped="0" time="4.912" errors="0">
-<testcase name="Nawigacja z użyciem Page Object Model" classname="pom.spec.ts" time="2.423">
-</testcase>
-<testcase name="Walidacja statusu HTTP wyszukiwarki" classname="pom.spec.ts" time="2.489">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="10.43068">
+<testsuite name="exercises.spec.ts" timestamp="2026-07-06T15:43:53.696Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.252" errors="0">
+<testcase name="Login test" classname="exercises.spec.ts" time="2.252">
 </testcase>
 </testsuite>
-<testsuite name="pom.spec.ts" timestamp="2026-07-01T12:49:22.269Z" hostname="firefox" tests="2" failures="0" skipped="0" time="8.674" errors="0">
-<testcase name="Nawigacja z użyciem Page Object Model" classname="pom.spec.ts" time="3.888">
-</testcase>
-<testcase name="Walidacja statusu HTTP wyszukiwarki" classname="pom.spec.ts" time="4.786">
+<testsuite name="exercises.spec.ts" timestamp="2026-07-06T15:43:53.696Z" hostname="firefox" tests="1" failures="0" skipped="0" time="3.347" errors="0">
+<testcase name="Login test" classname="exercises.spec.ts" time="3.347">
 </testcase>
 </testsuite>
-<testsuite name="pom.spec.ts" timestamp="2026-07-01T12:49:22.269Z" hostname="webkit" tests="2" failures="0" skipped="0" time="4.189" errors="0">
-<testcase name="Nawigacja z użyciem Page Object Model" classname="pom.spec.ts" time="2.056">
-</testcase>
-<testcase name="Walidacja statusu HTTP wyszukiwarki" classname="pom.spec.ts" time="2.133">
+<testsuite name="exercises.spec.ts" timestamp="2026-07-06T15:43:53.696Z" hostname="webkit" tests="1" failures="0" skipped="0" time="2.975" errors="0">
+<testcase name="Login test" classname="exercises.spec.ts" time="2.975">
 </testcase>
 </testsuite>
 </testsuites>
